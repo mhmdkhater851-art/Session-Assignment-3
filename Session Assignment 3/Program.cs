@@ -193,20 +193,20 @@ namespace Session_Assignment_3
             //Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty,
             //use return to exit the method early instead of printing anything.
 
-            static void PrintFirstBook(string[] books)
-            {
-                if (books.Length == 0)
-                {
-                    return;
-                }
-                else
-                {
+            //static void PrintFirstBook(string[] books)
+            //{
+            //    if (books.Length == 0)
+            //    {
+            //        return;
+            //    }
+            //    else
+            //    {
 
-                    Console.WriteLine(books[0]);
-                }
+            //        Console.WriteLine(books[0]);
+            //    }
 
-            }
-            PrintFirstBook(books);
+            //}
+            //PrintFirstBook(books);
             #endregion
         }
     }
