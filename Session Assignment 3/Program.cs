@@ -158,15 +158,33 @@ namespace Session_Assignment_3
             //Using the same books array, loop through it and print each title, but stop completely (break) once
             //you reach "Refactoring".
 
-            int i = 0;
+            //int i = 0;
+            //foreach (string book in books)
+            //{
+            //    if (book == "Refactoring")
+            //    {
+            //        break;
+            //    }
+
+            //    Console.WriteLine($"{i + 1}.{book}");
+            //    i++;
+            //}
+            #endregion
+
+            #region Q17
+            //Using the same books array, print every title except "The Pragmatic Programmer" (skip it with
+            //continue, don't stop the loop).
+
+            int i = 1;
+
             foreach (string book in books)
             {
-                if (book == "Refactoring")
+                if (book == "The Pragmatic Programmer")
                 {
-                    break;
+                    continue;
                 }
 
-                Console.WriteLine($"{i + 1}.{book}");
+                Console.WriteLine($"{i}. {book}");
                 i++;
             }
             #endregion
