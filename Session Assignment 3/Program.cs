@@ -39,8 +39,17 @@ namespace Session_Assignment_3
             //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".
             //Print the result.
 
-            sb.Replace(("Book List"), ("Library"));
-            Console.WriteLine(sb.ToString());
+            //sb.Replace(("Book List"), ("Library"));
+            //Console.WriteLine(sb.ToString());
+            #endregion
+
+            #region Q05
+            //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code,
+            //Pages: 464" using the + operator.
+
+            string title = "Clean Code";
+            int pages = 464;
+            Console.WriteLine("Book: " + title + ", Pages: " + pages);
             #endregion
         }
     }
